@@ -39,9 +39,9 @@ namespace Dragon
 			list.Drive(dragon, Direction.North, 0, 0, 8, 8);
 			list.CentreGraph(imageWidth,imageHeighht, 10);
 			list.FitGraph(imageWidth, imageHeighht, 10);
-			list.Draw(image, 1, CurveType.Curve
-				);
-			image.Save(@"d:\numbers\dragon.png", ImageFormat.Png);
+			list.CentreGraph(imageWidth,imageHeighht, 10);
+			list.Draw(image, 1, CurveType.Line);
+			image.Save(@"d:\numbers\philip\dragonL.png", ImageFormat.Png);
 		}
 		private string LevelUp
 			(string dragon
