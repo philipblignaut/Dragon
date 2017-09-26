@@ -1,0 +1,4 @@
+﻿1st iteration: R
+2nd iteration: R R L
+3rd iteration: R R L R R L L
+4th iteration: R R L R R L L R R R L L R L L.
